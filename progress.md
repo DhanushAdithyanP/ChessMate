@@ -5,7 +5,10 @@
 
 
 # Project Overview: 
-The goal is to build a real-time chess game analyzer that inegrates an open-source chess engine like stockfish and uses NLP to analyse the moves and provide feedback during the game. The project will also involve DevOps tools to automate deployment, continuous integration, and continuous delivery (CI/ CD) pipelines
+The goal is to build a real-time chess game analyzer that inegrates an open-source chess engine like stockfish and 
+uses NLP to analyse the moves and provide feedback during the game.
+The project will also involve DevOps tools to automate deployment, continuous integration, 
+and continuous delivery (CI/ CD) pipelines
 
 # Components of the Project: 
 1. Front End: Web Application
@@ -35,7 +38,7 @@ ChessMate/
 │   ├── app/                  # Core application code
 │   │   ├── __init__.py       # Initialize the backend app
 │   │   ├── routes.py         # Define API routes
-│   │   ├── stockfish.py      # Interface with Stockfish for move analysis
+│   │   ├── stockfish_wrapper.py      # Interface with Stockfish for move analysis
 │   │   ├── nlp.py            # NLP logic for generating human-readable feedback
 │   │   └── game.py           # Game logic and state handling
 │   ├── requirements.txt      # Python dependencies
