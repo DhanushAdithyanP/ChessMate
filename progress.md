@@ -1,5 +1,6 @@
 # Completed Tasks
 1. Structure of the project
+2. stockfish_wrapper.py code
 
 # Upcoming Tasks
 
